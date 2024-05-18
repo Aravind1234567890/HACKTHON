@@ -1,0 +1,13 @@
+canvas {
+    background-color: rgb(248, 246, 246);
+    border: solid black;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(249, 193, 124);
+}
+h1{
+    font-size:90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

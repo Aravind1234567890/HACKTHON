@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exp.css">
+</head>
+
+<body>
+    <div class="container">
+    <form id="expenseForm" class="f">
+        <h1>Expense Tracker</h1>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" required><br><br>
+
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <button type="submit">Add Expense</button>
+    </form></div><br>
+<div class="con">
+    <table id="expenseTable" class="t">
+        <thead>
+            <tr>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="expenseTableBody">
+        </tbody>
+    </table></div>
+
+    <script src="exp.js"></script>
+</body>
+
+</html>
